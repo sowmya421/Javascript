@@ -1,0 +1,75 @@
+// in-line comment
+// Data types and variables
+/* there are seven data types
+--undefined
+null
+boolean
+string
+symbol
+number
+object
+*/ 
+// there are three ways to declare a variable in js
+var myName="Beau"
+let ourName= "free" // used only within the scope where u declare
+const pi= 3.14 // variable which should never be changed
+
+
+var a; // declaring a variable
+var b=2;
+console.log(a)
+a=7; //declaring and assigning a variable
+console.log(a)// to show what is there in console
+
+// Uninitialized variables
+
+var a=5; 
+var b=10;
+var c="I am a";
+
+a=a+1;
+b=b+5;
+c=c+"string!";
+console.log(c)
+///// Variables and function names in js is case sensitivity
+// Adding nubers in js
+var sum= 10+10;
+console.log(sum)
+// Substracting numbers
+var difference =45-3
+console.log(difference)
+var product=2.0 * 2.5
+console.log(product)
+
+// similarly for multiplication and division
+
+
+/////Declare string variables
+
+var firstname="Alan";
+var lastname="Turing";
+
+///escaping literal quotes
+// " " is an escape character so use back slash
+//to print even the double quotes
+
+var myStr= "I am a \"double quoted\" string inside \"double quotes\""
+console.log(myStr)
+var my='chjkl "hcjkl"'
+console.log(my)
+
+/////Code output
+
+/*
+\'     single quote
+\"      double quote
+\\      backslash
+\n      new line
+\r      carriage return
+\t      tab
+\b         backspace
+\f      form feed
+ */
+
+var myy="FirstLine\n\t\\SecondLine\nThirdLine"
+console.log(myy)
